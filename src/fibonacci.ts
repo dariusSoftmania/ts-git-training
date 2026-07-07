@@ -32,4 +32,3 @@ export const computeFibonacciArray = (start: number, endInclusive: number): numb
     const inputArray = [...Array(endInclusive - start + 1).keys()].map(i => i + start);
     return inputArray.map(x => computeFibonacciNumber(x));
 }
-
